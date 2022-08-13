@@ -2,29 +2,35 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.color-change{
-    color: orange
-    ;
+
+.color-change {
+    color: orange;
 
 }
-section{
+
+section {
     display: inline-flex;
 }
-.half-width{
+
+.half-width {
     width: 80%;
     padding-left: 5%;
 }
-.pad-top{
+
+.pad-top {
     padding-top: 2%;
     padding-right: 1%;
 }
-.h3-color{
+
+.h3-color {
     color: green;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(tomato, orange);
     border-radius: 5px;
@@ -33,7 +39,43 @@ section{
     font-size: 1.1em;
 
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.buttontwo {
+
+    text-decoration: none;
+    background-image: linear-gradient(green, black);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.sec-img{
+    border: 2px solid black;
+
+    margin: 5px;
+    padding: 8px;
+}
+.sectwo{
+    width: 70%;
+    padding-left: 30px;
+}
+#coffee{
+    color: brown;
+    font-size: 70px;
+
+}
+#gph{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: aqua;
+    background-color: black;
+    width: 60%;
+    padding: 5px;
+    border-radius: 1px;
 }
