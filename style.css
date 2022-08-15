@@ -79,3 +79,41 @@ section {
     padding: 5px;
     border-radius: 1px;
 }
+.experience-area{
+    display: flex;
+    
+
+}
+#baby-dev{
+    width: 50%;
+    margin: 5%;
+    padding: 3px;
+    box-shadow: 10px 10px 40px black;
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(rgb(5, 196, 249),blue);
+    border-image-slice: 1;
+}
+#seo-ser{
+    width: 50%;
+    margin: 5%;
+    padding: 3px;
+    box-shadow: 10px 10px 40px black;
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(orange,blue);
+    border-image-slice: 1;
+    
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.exp-head{
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+}
